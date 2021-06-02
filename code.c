@@ -51,5 +51,4 @@ int main()
     propozitii=nr_propozitii(text, propozitii);
     free(text);
     return 0;
-
 }

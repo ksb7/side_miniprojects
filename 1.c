@@ -32,6 +32,7 @@ int nr_propozitii(char *t, int p)
     return p;
 }
 
+
 int main()
 {
     /* numara cate litere, cuvinte si propozitii
@@ -49,6 +50,9 @@ int main()
     cuvinte=nr_cuvinte(text, cuvinte);
     litere=nr_litere(text, litere);
     propozitii=nr_propozitii(text, propozitii);
+    //using Coleman-Liau formula
+    int index=0.0588*((litere*100)/cuvinte)-0.296*((propozitii*100)/cuvinte)-15.8;
+    printf("gradul de citire este de clasa %d\n", index);
     free(text);
     return 0;
 }

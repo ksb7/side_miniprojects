@@ -9,16 +9,12 @@ int sort(int number, int size_of_array, int mijloc, int inceput, int *x)
         mijloc=(size_of_array+inceput)/2;
         if(number>x[mijloc]) inceput = mijloc+1; 
         else if (number<x[mijloc]) size_of_array = mijloc-1; 
-        else if (number==x[mijloc])
-        {
-            printf("the number is at position ");
-            return mijloc;
-        }
+        else if (number==x[mijloc]) return mijloc;
         else return -1; //this instruction gets ignored
         /*
         if the number is not in the array
         the program prints the last position
-        regardless of the message at line #36
+        regardless of the message at line #35
         */
     }while(size_of_array>inceput);
 }

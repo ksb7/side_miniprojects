@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//calculate number of digits in a person's age
 void calculate(char*nume, int v)
 {
     //cate cifre are varsta introdusa

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-
+//store data about N cars
 using namespace std;
 
 int main()

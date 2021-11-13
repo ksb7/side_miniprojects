@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+    /* numara cate litere, cuvinte si propozitii
+    are textul introdus de utilizator de la tastatura
+    pana la apasarea tastei ENTER */
+//determina gradul de citire a unui text
 int nr_cuvinte(char *t, int c)
 {
     int i; 
@@ -35,9 +39,6 @@ int nr_propozitii(char *t, int p)
 
 int main()
 {
-    /* numara cate litere, cuvinte si propozitii
-    are textul introdus de utilizator de la tastatura
-    pana la apasarea tastei ENTER */
     int cuvinte=0, litere=0, propozitii=0; 
     char *text=calloc(1, sizeof(char));
     int i=1, ii=0;

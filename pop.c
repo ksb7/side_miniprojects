@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define true 1
-
+//determina in cat timp va creste un nr de populatie
 int main ()
 {
     int n;

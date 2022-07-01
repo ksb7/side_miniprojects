@@ -9,3 +9,4 @@ Contents: <br />
 [# C program to find a number using binary search](https://github.com/ksb7/side_miniprojects/blob/main/find.c) <br />
 [# C program to sort a given array using selection sort algorithm](https://github.com/ksb7/side_miniprojects/blob/main/ordon.c) <br />
 [# Simple shell in C](https://github.com/ksb7/side_miniprojects/blob/main/shell.c) <br />
+[# C program to modifiy the volume of a wav file](https://github.com/ksb7/side_miniprojects/tree/main/waw) <br />
